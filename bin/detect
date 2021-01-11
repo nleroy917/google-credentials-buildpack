@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # this pack is valid for apps with a GOOGLE_CREDENTIALS env
 # variable in the project
