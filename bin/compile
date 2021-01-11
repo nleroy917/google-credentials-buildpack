@@ -13,5 +13,7 @@ LOC=$(cat ${ENV_DIR}/GOOGLE_APPLICATION_CREDENTIALS)
 
 echo $CREDENTIALS > $BUILD_DIR/$LOC
 echo "-----> Credentials created."
-ls $BUILD_DIR
+echo "list build_dir"
+ls -al $BUILD_DIR
+echo "list /app/"
 ls /app/
